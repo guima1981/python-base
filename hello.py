@@ -20,9 +20,10 @@ __license__="Unlicense"
 
 import os
 # Execução: LANG=fr_FR ./hello.py
+# export LANG=pt_BR.utf8  -> ./hello.py
 
-current_language = "en_US"
-#current_language = os.getenv("LANG","en_US")[:5]
+#current_language = "en_US"
+current_language = os.getenv("LANG","en_US")[:5]
 
 # 01
 # Sets (Hash Table) - O(1) - Constante
